@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(105, 102, 102);
 }
 
 body {
@@ -16,6 +16,7 @@ body {
     height: 15%;
     width: 100%;
     background-color: rgb(23, 23, 23);
+    margin-bottom: 3rem;
 }
 
 .header h1 {
@@ -26,19 +27,6 @@ body {
     font-family: 'Lobster', cursive;
 }
 
-
-.calculator {
-    height: 75vh;
-    width: 50vw;
-    min-width: 50vw;
-    background-color: rgb(29, 29, 29);
-}
-
-
-.calculator .row {
-    background-color: rgb(29, 29, 29);
-    padding-left: 10vw;
-}
 
 .main {
     align-items: center;
@@ -52,10 +40,9 @@ body {
 }
 
 .footer p {
-    text-align: center;
     background-color: rgb(23, 23, 23);
     margin: 38px;
-    text-align: right;
+    text-align: right !important;
     color: white;
     font-family: 'Lobster', cursive;
 }
